@@ -1,0 +1,89 @@
+@media (max-width: 380px) {
+    .snip1535{
+        font-size: 10px;
+        padding: 12px 3px 10px
+    }
+    .feat-inner i{
+        font-size: 70px;
+    }
+    .cta1 h4{
+        font-size: 1.28rem;
+    }
+}
+@media (max-width: 606px) {
+    .blog-banner{
+        display: none;
+    }
+    .desk-cart-row{
+        display: none;
+    }
+    .cta-right{
+        display: none;
+    }
+    .final-summary{
+        margin-top: 7px;
+    }
+    .m50{
+        margin-left: 50px;
+    }
+    .m110{
+        margin-right: 10px;
+    }
+    .mm-logo{
+        max-width: 100px !important;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .icon-hide{
+        float: right !important;
+    }
+
+    .middle{
+        display: table;
+        height: 150px;
+        margin: 0 auto;
+        width: 400px;
+    }
+    .sm-social{
+        text-align: center;
+    }
+    .mm-acad-nav{
+        padding-top: 6px !important;
+        padding-left: 10px;
+        max-width: 64px !important;
+    }
+    .slider{
+        display: none;
+    }
+
+}
+
+@media (min-width: 607px) {
+    .container{
+        width: 100%;
+    }
+    .mobile-banner{
+        display: none;
+    }
+    .mobile-cart-row{
+        display: none;
+    }
+    .mm-acad-nav{
+        padding-top: 6px !important;
+        max-width: 80px !important;
+    }
+
+    .icon-hide, .side-feat{
+        display: none !important;
+    }
+    .mm-nav{
+        height: 84px;
+        line-height: 84px;
+    }
+    .mm-logo{
+        padding-top: 8px;
+        max-width: 130px !important;
+    }
+
+}
