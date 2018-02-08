@@ -38,6 +38,8 @@ Route::get('profile/create', 'ProfileController@create')->name('profileCreate');
 
 Route::get('how-it-works', 'HomeController@how')->name('how');
 Route::get('contact', 'ContactController@contact')->name('contact');
+Route::get('terms', 'HomeController@terms')->name('terms');
+Route::get('privacy', 'HomeController@privacy')->name('privacy');
 Route::get('/verify-email/{token}', 'Auth\RegisterController@verify'); /* for sending email verification */
 Route::post('contact', 'ContactController@storeContact')->name('postContact');
 

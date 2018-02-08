@@ -6,14 +6,14 @@
                     <div class="col m3">
                         <h6 class="dev">Get to know us</h6>
                         <a href="#">About Laciudad</a><br>
-                        <a href="#">Terms and Condition</a><br>
-                        <a href="#">Private and Policy</a>
+                        <a :href="terms">Terms and Condition</a><br>
+                        <a :href="privacy">Private and Policy</a>
                     </div>
 
                     <div class="col m3">
                         <h6>Train with us</h6>
                         <a href="#">eBooks</a><br>
-                        <a href="#">Become a trainer</a><br>
+                        <a :href="register">Become a trainer</a><br>
                         <a href="#">Find trainees</a>
                     </div>
                     <div class="col m3">
@@ -45,7 +45,9 @@
     export default {
         data() {
             return {
-
+                terms: 'terms',
+                privacy: 'privacy',
+                register: 'register'
             }
         }
     }

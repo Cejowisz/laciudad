@@ -356,3 +356,8 @@ nav ul a{
 .how-col p{
     line-height: 1.75;
 }
+.terms h5{
+    color: #262447;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}

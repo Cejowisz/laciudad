@@ -1,5 +1,7 @@
 /node_modules
 /public/hot
+/bootstrap/app.php
+/config/app.php
 /public/storage
 /storage/*.key
 /vendor
