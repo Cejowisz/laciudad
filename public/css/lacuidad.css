@@ -347,3 +347,12 @@ nav ul a{
     background: #281b33;
     height: 10px;
 }
+.how-main-heading{
+    margin: 50px 0;
+}
+.how-col{
+    padding: 25px;
+}
+.how-col p{
+    line-height: 1.75;
+}

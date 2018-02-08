@@ -32,4 +32,9 @@ class HomeController extends Controller
     {
         return view('pages.how');
     }
+
+    public function terms()
+    {
+        return view('pages.terms');
+    }
 }
