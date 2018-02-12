@@ -8,45 +8,38 @@
         <div class="row">
             <div class="col m10 offset-m1">
                 <div class="card about">
-                    <h5 class="center-align wwo pri-color">About Our Company</h5>
                     <div class="wwo-border" style="margin-bottom: 30px"></div>
-                    <p><span class="wwo pri-color">Our History</span><br/>
-                        Wiseman Designs studio has been in the system of printing and customizing
-                        for years and was professionally registered with the Corporate Affairs
-                        Commission on February 03, 2014, with Registration No. AK 19229 and also registered
-                        with the Federal Inland Revenue Services on May, 28th 2014 with a Tax Identification Number.
+                    <p><span class="wwo pri-color">Company Overview</span><br/>
+                        LACIUDAD GROUP is the city of entrepreneurs that are passionate, dynamic and
+                        empowered to eradicate poverty in Africa. LACIUDAD GROUP is African-based Membership
+                        Company that strongly believed poverty in Africa is human threat and a monstrous emergency
+                        which must be tackled decisively and without any negligence.
                         <br/><br/>
-                        The company is growing every day and more visions are coming in.
+                        LACIUDAD GROUP proffers a sustainable pathway into financial freedom for all; a city
+                        full of abundance where no one is the boss of the other, rather we help each other. This is a
+                        system with a well define structure where all Africans are empowered vocationally and
+                        financially so as to realize their dreams. Duyile Opemipo once said “A man can’t give what he
+                        doesn’t have”, therefore Africans must be ready for human capacity building in order to
+                        eradicate poverty once and for all.
                         <br/><br/>
-                        We have worked for many clients like: Frontier Oil Ltd, Abushie
-                        Int’l Company, J-Frank Electrical Company, Mannys Makeover, Blesteel
-                        Accessories, Grace and Gold Makeover, etc to mention but a
-                        few who can testify to the quality and delivery pattern of our job.
-                        <br/><br/>
-                        We believe in customer's satisfaction for consistency.
-                        <br/><br/>
-                        Wiseman Designs studio handles safety signs for companies,
-                        Fliers, Posters, Billboards, Reflective Signage's,
-                        Printing of Souvenirs, T-shirt customizing, wedding
-                        designs, photography and general printing contracts.
+                        A continent with prosperous people is a prosperous continent; great people make great
+                        Africa. The succession of greatness of the past leaders rest upon us; if you wait doing nothing
+                        about your life, you will waste, but if you take up responsibilities of greatness then you become
+                        responsible in life. Acquire skills in LACIUDAD GROUP, be financially empowered through
+                        our networking scheme, become employer of labor, live your dream and impact Africa
+                        positively. The greatness of Africa begins with you, therefore Join LACIUDAD GROUP today!
                     </p>
 
                     <p><span class="wwo pri-color">Vision</span><br/>
-                        Is to have the biggest printing press in Nigeria and outside Africa and also
-                        to provide quality services that exceeds the expectations of our esteemed customers
+                        to become a leading company in the world, transforming Africa into a first-class
+                        continent through our conceptual schemes.
                     </p>
                     <p><span class="wwo pri-color">Mission</span><br/>
-                        Is to provide excellent and comprehensive services to all our
-                        customers in a friendly environment using qualified and friendly
-                        experienced personnel and with appropriate measures to sustain customer relationship.
-                    </p>
+                        To empower all Africans through vocational trainings and proffers a sustainable
+                        pathway into financial freedom through our networking scheme
                     <p><span class="wwo pri-color">Our Goal</span><br/>
-                        Is to be the best in Printing & T-shirt customizing and develop a strong base of key customers.
-                        <br/><br/>
-                        Increase the assets and investments of the company to support
-                        the development of services. To build good reputation in the
-                        field of Printing business & T-shirt customizing and to
-                        become a key player in the industry in and outside Africa.
+                        Entrepreneur: We continuously seek to develop and empower Africans in order to create more
+                        jobs in Africa.
                     </p>
                 </div>
             </div>

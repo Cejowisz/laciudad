@@ -26,7 +26,7 @@
                     <div class="form-group">
                         <select name="category">
                             <option disabled selected>Please select one</option>
-                            @foreach($categories as $cat)
+                            @foreach($book_categories as $cat)
                                 <option value="{{$cat->id}}">{{ $cat->name }}</option>
                             @endforeach
                         </select>
@@ -52,7 +52,7 @@
             <thead>
             <tr>
                 <th>S/N</th>
-                <th>Title</th>
+                <th>File</th>
                 <th>Description</th>
                 <th></th>
             </tr>
@@ -62,13 +62,12 @@
             @for($i = 0; $i < count($books); $i++)
                 <tr>
                     <td>{{ $i + 1}}</td>
-                    <td>{{ $books[$i]->title }}</td>
+                    <td><a href="{{ Storage::url($books[$i]->pdf) }}" target="_blank">{{ $books[$i]->title }}</a></td>
                     <td>{{ $books[$i]->description }}</td>
                     <td>
                         <a class='dropdown-button btn' href='#' data-activates='action'>Action</a>
                         <ul id='action' class='dropdown-content'>
                             <li><a href="#!">Edit</a></li>
-                            <li><a href="#!">View</a></li>
                             <li><a href="{{ route('deleteBook', $books[$i]->id) }}" style="color: darkred">Delete</a></li>
                         </ul>
                     </td>

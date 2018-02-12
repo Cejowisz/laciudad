@@ -1,6 +1,6 @@
-@if(Session::has('success_message'))
+@if(Session::has('message'))
     <div class="chips">
-        {{ Session::get('success_message') }}
+        {{ Session::get('message') }}
         <i class="close material-icons">close</i>
     </div>
 

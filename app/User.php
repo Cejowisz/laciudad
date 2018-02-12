@@ -14,17 +14,19 @@ class User extends Authenticatable
         return $this->hasMany('App\Book');
     }
 
-    public function interests()
+    public function profile()
     {
-        return $this->belongsToMany('App\Interest');
+        return $this->hasOne('App\Profile');
     }
+
+
 
     protected $table = 'users';
 
     protected $fillable = [
         'name',
         'username',
-        'phone',
+        'phone_number',
         'email',
         'email_token',
         'password'];

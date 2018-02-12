@@ -16,7 +16,7 @@
             </div>
         </nav>
         @yield('content')
-        <app-footer></app-footer>
+        {{--<app-footer></app-footer>--}}
     </div>
 
 @include('pages.partials._footer')

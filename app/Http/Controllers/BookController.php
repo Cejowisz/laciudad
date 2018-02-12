@@ -13,9 +13,9 @@ class BookController extends Controller
 {
     public function index()
     {
-        $books = Book::orderBy('created_at', 'desc')->get();
-        $categories = BookCategory::all();
-        return view('admin.books.create', compact('books','categories'));
+        $books = Book::where('user_id', Auth::user()->id)->orderBy('created_at', 'desc')->get();
+        $book_categories = BookCategory::all();
+        return view('admin.books.create', compact('books','book_categories'));
     }
 
     public function getBooks()
@@ -45,14 +45,14 @@ class BookController extends Controller
             $file = $request->file('pdf');
             $filename = time() . $file->getClientOriginalName();
             $path = $request->file('pdf')->storeAs('pdfs', $filename);
+
             $book = new Book;
-            $category = BookCategory::find($request->category);
 
             $book->title = $request->title;
             $book->description = $request->description;
             $book->pdf = $path;
             $book->user()->associate(Auth::user());
-            $book->bookCategory()->associate($category);
+            $book->bookCategory()->associate($request->category);
             $book->save();
             Session::flash('message', 'PDF Successfully saved');
             return back();

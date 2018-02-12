@@ -48,7 +48,19 @@
                     <span><a href="#"><i class="dropdown-button material-icons pri-color dash-app" data-activates='admin-dash'>apps</i></a></span>
                     <ul id='admin-dash' style="z-index: 99999" class='dropdown-content'>
                         <li><a href="{{ route('profileCreate') }}">Profile</a></li>
-                        <li><a href="#!">View</a></li>
+                        @auth
+                            <li>
+                                <a href="{{ route('logout') }}"
+                                   onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                    Logout
+                                </a>
+
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    {{ csrf_field() }}
+                                </form>
+                            </li>
+                        @endauth
                     </ul>
                 </div>
             </div>

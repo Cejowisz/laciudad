@@ -34,9 +34,11 @@ Route::any('delete-book/{id}', 'BookController@destroy')->name('deleteBook');
 
 // Profile
 Route::get('profile/create', 'ProfileController@create')->name('profileCreate');
+Route::post('profile/create', 'ProfileController@store')->name('profileStore');
 
 
 Route::get('how-it-works', 'HomeController@how')->name('how');
+Route::get('about', 'HomeController@about')->name('about');
 Route::get('contact', 'ContactController@contact')->name('contact');
 Route::get('terms', 'HomeController@terms')->name('terms');
 Route::get('privacy', 'HomeController@privacy')->name('privacy');

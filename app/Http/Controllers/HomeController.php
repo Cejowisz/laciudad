@@ -41,4 +41,9 @@ class HomeController extends Controller
     {
         return view('pages.privacy');
     }
+
+    public function about()
+    {
+        return view('pages.about');
+    }
 }

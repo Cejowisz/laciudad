@@ -361,3 +361,20 @@ nav ul a{
     margin-bottom: 30px;
     margin-top: 30px;
 }
+.site-footer{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background: #281b33;
+}
+.site-footer a{
+    color: #897798;
+}
+.site-footer h6{
+    color: #fff;
+}
+.about{
+    padding: 15px;
+}
+.wwo{
+    margin-bottom: 55px;
+}

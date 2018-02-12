@@ -16,9 +16,6 @@ class ContactController extends Controller
 
     public function storeContact(Request $request)
     {
-        return response()->json([
-            'feedback' => 'Hello Im here'
-        ]);
         $this->validate($request, [
             'name'      =>  'required|string|min:3',
             'company_name'  => 'nullable|string|max:60',
@@ -38,15 +35,6 @@ class ContactController extends Controller
         $contact->how   = $request->how;
         $contact->message = $request->message;
 
-        if ($contact->save()){
-            return response()->json([
-                'feedback' => 'Contact form successful submitted'
-            ]);
-        }
-        return response()->json([
-            'feedback' => 'Contact form NOT successful submitted'
-        ]);
-
 
         $data = [
             'name'      => $request->name,
@@ -55,13 +43,13 @@ class ContactController extends Controller
             'email'     => $request->email,
             'how'       => $request->how,
             'mesage' => $request->message,
-            'subject' => 'Contact From The Mall',
+            'subject' => 'From The Contact form',
         ];
 
         $data1 = [
             'name' => $request->name,
             'email' => $request->email,
-            'subject' => $request->subject,
+            'subject' => 'Contact from ' . $request->email,
         ];
 
         Mail::send('emails.feedback', $data1, function($message) use ($data1){

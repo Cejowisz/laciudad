@@ -6,9 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Interest extends Model
 {
-    public function users()
+    public function profiles()
     {
-        return $this->belongsToMany('App\User');
+        return $this->belongsToMany('App\Profile');
     }
 
     protected $table = 'interests';

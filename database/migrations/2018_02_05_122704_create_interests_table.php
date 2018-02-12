@@ -15,10 +15,10 @@ class CreateInterestsTable extends Migration
         });
 
 
-        Schema::create('interest_user', function (Blueprint $table) {
+        Schema::create('interest_profile', function (Blueprint $table) {
             $table->integer('interest_id');
-            $table->integer('user_id');
-            $table->primary(['interest_id', 'user_id']);
+            $table->integer('profile_id');
+            $table->primary(['interest_id', 'profile_id']);
         });
     }
 

@@ -27,9 +27,9 @@
                                     <span class="help-block" v-for="error in errors.email">{{ error }} </span>
                                 </div>
                                 <div class="input-field col m6">
-                                    <input type="text" id="phone" v-model="user.phone" required>
+                                    <input type="text" id="phone" v-model="user.phone_number" required>
                                     <label for="phone">Phone</label>
-                                    <span class="help-block" v-for="error in errors.phone">{{ error }} </span>
+                                    <span class="help-block" v-for="error in errors.phone_number">{{ error }} </span>
                                 </div>
                             </div>
 
@@ -79,7 +79,7 @@
                     username: '',
                     name: '',
                     email: '',
-                    phone: ''
+                    phone_number: ''
                 }
             }
         },
@@ -93,7 +93,7 @@
                     username: '',
                     name: '',
                     email: '',
-                    phone: ''
+                    phone_number: ''
                 }
             },
 
